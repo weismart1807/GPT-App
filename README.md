@@ -1,4 +1,4 @@
-# GPT_API-
+# GPT_API
 using GPT API creats application
 
 # gpt chat with each other
