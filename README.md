@@ -32,4 +32,5 @@ using GPT API creats application
    $jsonBody = @{ text = $text } | ConvertTo-Json  
    $response = Invoke-RestMethod -Uri "http://localhost:5001/api/generate" -Method POST -ContentType "application/json; charset=UTF-8" -Body $jsonBody   
    Write-Output $($response.summary)  
-   Write-Output $($response.topics)  
+   Write-Output $($response.topics)
+5. you can see resposesin reponse file
