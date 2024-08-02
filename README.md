@@ -1,6 +1,5 @@
 # GPT_API
-## using GPT API creats application
-### First, you need to prepare a OpenAI GPT API.
+### First, you need to prepare a OpenAI GPT API, then using GPT API creats application.
 
 # gpt chat with each other
 #### let two GPT role discuss and get a smae viewpoint in the end for a topic you set
@@ -28,7 +27,7 @@
 ![image](https://github.com/user-attachments/assets/b5aa2390-7757-48e0-88ce-e52911ac1639)
 
 # gptapi
-#### <API term> get a summary and some topic from a article you give
+#### (API term) get a summary and some topic from a article you give
 1. change GPT Key for yourself
 2. open text.json and change text for yourself
 3. go to terminal 1 and command " node server.cjs "
