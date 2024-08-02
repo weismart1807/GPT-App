@@ -28,5 +28,6 @@ using GPT API creats application
 2. open text.json and change text for yourself
 3. go to terminal 1 and command " node server.cjs "
 4. go to terminal 2 and command " curl -X POST -H "Content-Type: application/json; charset=UTF-8" -d @text.json http://localhost:20080/api/generate "
-5. you can see resposesin reponse file
+5. you can see resposes in reponse file
+6. and you can see the image below
 <img width="569" alt="image" src="https://github.com/user-attachments/assets/4e392569-ce9a-408f-9af1-de178637c302">
