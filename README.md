@@ -1,7 +1,8 @@
 # GPT_API
 using GPT API creats application
+First, you need to prepare a OpenAI GPT API.
 
-# gpt chat with each other
+## gpt chat with each other
 1. change GPT Key for yourself
 2. go to trminal and command "python app.py"
 3. open your chrome and search http://127.0.0.1:5000
