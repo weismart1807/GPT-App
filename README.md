@@ -25,12 +25,8 @@ using GPT API creats application
 
 # gptapi
 1. change GPT Key for yourself
-2. go to terminal 1 and command "node server.js"
-3. go to terminal 2 and command "Invoke-WebRequest -Uri "http://localhost:20080/api/generate" -Method POST -ContentType "application/json; charset=UTF-8" -Body '{"text": "..."}' -UseBasicParsing"
-4. OR go to terminal 2 and command  
-   $text = '...'  
-   $jsonBody = @{ text = $text } | ConvertTo-Json  
-   $response = Invoke-RestMethod -Uri "http://localhost:20080/api/generate" -Method POST -ContentType "application/json; charset=UTF-8" -Body $jsonBody   
-   Write-Output $($response.summary)  
-   Write-Output $($response.topics)
+2. open text.json and change text for yourself
+3. go to terminal 1 and command " node server.cjs "
+4. go to terminal 2 and command " curl -X POST -H "Content-Type: application/json; charset=UTF-8" -d @text.json http://localhost:20080/api/generate "
 5. you can see resposesin reponse file
+<img width="569" alt="image" src="https://github.com/user-attachments/assets/4e392569-ce9a-408f-9af1-de178637c302">
