@@ -31,6 +31,7 @@ Steps:
 
 # gptapi
 ### (API) Accepts an article and returns a summary along with key topics.
+Steps:
 1. Change GPT Key for yourself
 2. Open text.json and change text for yourself
 3. Go to terminal 1 and command " node server.cjs "
